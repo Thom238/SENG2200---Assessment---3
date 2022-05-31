@@ -2,7 +2,7 @@
 Author: Thomas Bandy
 Course: SENG2200
 Date: 27/05/2022
-Files: A3.java, Widget.java, Job.java, InterStageQueue.java
+Files: A3.java, Widget.java, Job.java, InterStageQueue.java, SplitStage.java
 */
 public class SerialNumber {
     int number;
@@ -15,7 +15,6 @@ public class SerialNumber {
     public static SerialNumber getInstance() {
         return instance;
     }
-
     public int getNextNumber(){
         number++;
         return number;
